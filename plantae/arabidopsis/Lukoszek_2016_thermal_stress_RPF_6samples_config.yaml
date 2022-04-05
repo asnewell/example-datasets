@@ -1,0 +1,76 @@
+provenance:
+  yaml authors:
+  - author: Amy Newell
+    email: a.s.newell@sms.ed.ac.uk
+  DOI:https://dx.doi.org/10.1186%2Fs12870-016-0915-0
+  GEO: GSE69802
+  date run: 
+  notes: Ribosome profiling datasets of heat stressed and non heat stressed 3 week-old arabidopsis plants
+  reference: Lukoszek R, Feist P, Ignatova Z. Insights into the adaptive response of Arabidopsis thaliana to prolonged thermal stress by ribosomal profiling and RNA-Seq. BMC Plant Biol 2016 Oct 10;16(1):221. PMID: 27724872
+  riboviz-version: 2.0 | COMMIT 
+  riboviz environment tokens use: 
+  riboviz environment tokens note 1:
+  riboviz environment tokens note 2: 
+  riboviz environment tokens note 3: 
+
+adapters: 
+asite_disp_length_file: 
+buffer: 
+build_indices: 
+codon_positions_file:
+count_reads: 
+count_threshold:
+dataset: 
+dedup_stats: 
+dedup_umis: 
+dir_in:
+dir_index: 
+dir_out:
+dir_tmp: 
+extract_umis: 
+feature: 
+features_file:
+fq_files:
+  Heat_stress_sample1: heat01_rpf.fastq.gz
+  WT_sample2: wt02_rpf.fastq.gz
+  WT_sample1: wt01_rpf.fastq.gz
+group_umis: 
+hisat2_orf_params: 
+is_riboviz_gff: 
+job_email: 
+job_email_events: 
+job_memory: 
+job_name: riboviz
+job_num_cpus: 
+job_parallel_env: 
+job_runtime:
+make_bedgraph:
+max_read_length:
+min_read_length: 
+multiplex_fq_files: 
+nextflow_dag_file: 
+nextflow_report_file:
+nextflow_timeline_file: 
+nextflow_trace_file:
+nextflow_work_dir: 
+num_processes: 
+orf_fasta_file:
+orf_gff_file: 
+orf_index_prefix: 
+output_metagene_normalized_profile: 
+output_pdfs: 
+primary_id:
+publish_index_tmp: 
+rpf: 
+rrna_fasta_file:
+rrna_index_prefix: 
+run_static_html: 
+sample_sheet:
+samsort_memory: 
+secondary_id: 
+skip_inputs: 
+stop_in_feature: 
+t_rna_file: 
+trim_5p_mismatches: 
+umi_regexp: 
+validate_only: 
